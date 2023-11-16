@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Your Name - Portfolio</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+    <!-- Navigation -->
+    <nav>
+        <ul>
+            <li><a href="#home">Home</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#portfolio">Portfolio</a></li>
+            <li><a href="#resume">Resume</a></li>
+            <li><a href="#blog">Blog</a></li>
+            <li><a href="#contact">Contact</a></li>
+        </ul>
+    </nav>
+
+    <!-- Home Page -->
+    <section id="home">
+        <h1>Your Name</h1>
+        <p>Welcome to my online portfolio. I am passionate about [Your Profession].</p>
+        <p>Contact me at: <a href="mailto:your.email@example.com">your.email@example.com</a></p>
+    </section>
+
+    <!-- About Me -->
+    <section id="about">
+        <h2>About Me</h2>
+        <p>[Your brief bio and introduction]</p>
+        <p>Education: [Your Education]</p>
+        <p>Work Experience: [Your Work Experience]</p>
+        <p>Skills: [Your Skills]</p>
+        <p>Certifications: [Your Certifications]</p>
+    </section>
+
+    <!-- Portfolio -->
+    <section id="portfolio">
+        <h2>Portfolio</h2>
+        <div class="project">
+            <h3>Project Title 1</h3>
+            <p>Description of the project. Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+            <img src="project1.jpg" alt="Project 1">
+            <a href="#" target="_blank">View Project</a>
+        </div>
+        <div class="project">
+            <h3>Project Title 2</h3>
+            <p>Description of the project. Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+            <img src="project2.jpg" alt="Project 2">
+            <a href="#" target="_blank">View Project</a>
+        </div>
+        <!-- Add more projects as needed -->
+    </section>
+
+    <!-- Resume/CV -->
+    <section id="resume">
+        <h2>Resume/CV</h2>
+        <p>[Include your resume information or provide a link to download the PDF version.]</p>
+    </section>
+
+    <!-- Blog -->
+    <section id="blog">
+        <h2>Blog</h2>
+        <p>[Include your blog articles or links to them.]</p>
+    </section>
+
+    <!-- Contact -->
+    <section id="contact">
+        <h2>Contact</h2>
+        <p>Feel free to reach out to me via the contact form below or through my social media:</p>
+        <form action="contact.php" method="post">
+            <!-- Add your contact form fields here -->
+        </form>
+        <div class="social-media">
+            <a href="#" target="_blank">LinkedIn</a>
+            <a href="#" target="_blank">Twitter</a>
+            <!-- Add more social media links as needed -->
+        </div>
+    </section>
+
+    <!-- Styles -->
+    <style>
+        /* Add your CSS styles here */
+    </style>
+
+</body>
+</html>
