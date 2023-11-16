@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Restaurant Name</title>
+  <!-- Add your CSS styles here -->
+</head>
+<body>
+  <header>
+    <h1>Restaurant Name</h1>
+    <nav>
+      <ul>
+        <li><a href="#home">Home</a></li>
+        <li><a href="#menu">Menu</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+    </nav>
+    <a href="#reservation" class="reservation-button">Make a Reservation</a>
+  </header>
+
+  <section id="home">
+    <div class="hero">
+      <img src="interior.jpg" alt="Restaurant Interior">
+      <img src="exterior.jpg" alt="Restaurant Exterior">
+      <img src="dish.jpg" alt="Signature Dish">
+    </div>
+    <p class="tagline">Welcome to a culinary journey like no other.</p>
+  </section>
+
+  <!-- Additional sections for About, Special Offers, Testimonials, etc. -->
+
+  <footer>
+    <!-- Footer content, links, and social media icons -->
+  </footer>
+
+  <!-- Add your JavaScript scripts here -->
+</body>
+</html>
+<!-- Create separate HTML files for each menu category -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <!-- Include necessary meta tags and styles -->
+  <title>Appetizers</title>
+</head>
+<body>
+  <header>
+    <!-- Include navigation or a back button to return to the homepage -->
+    <h1>Appetizers</h1>
+  </header>
+
+  <section class="menu-category">
+    <div class="menu-item">
+      <img src="appetizer1.jpg" alt="Appetizer 1">
+      <h2>Appetizer 1</h2>
+      <p class="description">Lorem ipsum dolor sit amet, consectetur adipiscing elit...</p>
+      <p class="price">$10.99</p>
+    </div>
+
+    <!-- Additional menu items -->
+
+  </section>
+
+  <!-- Add your JavaScript scripts here -->
+</body>
+</html>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <!-- Include necessary meta tags and styles -->
+  <title>Contact Us</title>
+</head>
+<body>
+  <header>
+    <!-- Include navigation or a back button to return to the homepage -->
+    <h1>Contact Us</h1>
+  </header>
+
+  <section id="contact">
+    <p>Visit us at:</p>
+    <address>
+      123 Main Street, Cityville, State, Zip
+    </address>
+    <p>Call us at: <a href="tel:+123456789">+1 (234) 567-89</a></p>
+    <p>Email us at: <a href="mailto:info@">info@example.com</a></p>
+    
+    <div id="map">
+      <!-- Embed Google Maps iframe or use JavaScript API -->
+    </div>
+
+    <form action="submit_form.php" method="post">
+      <!-- Include form fields for inquiries, reservations, or feedback -->
+    </form>
+  </section>
+
+  <!-- Add your JavaScript scripts here -->
+</body>
+</html>
